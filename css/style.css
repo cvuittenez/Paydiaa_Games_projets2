@@ -93,7 +93,7 @@ a {
 
 .fond {
     width: 101vw;
-    height: 100vh;
+    height: 100%;
     position: relative;
     transform: translateX(-1vw);
 }
@@ -127,4 +127,64 @@ h3 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+.texte_connexion {
+    font-family: Raleway, sans-serif;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#nom_utilisateur, #mdp, #nom_utilisateur2, #mail{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
+    height: 40px;
+    border-radius: 51px;
+    font-size: 24px;
+    font-family: Raleway, sans-serif;
+}
+
+.se_connecter {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 40px;
+    border-radius: 51px;
+    background-color: #4D7E46;
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 35px;
+}
+
+.pas_de_compte {
+    font-family: Raleway, sans-serif;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.texte_creation {
+    font-family: Raleway, sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+#jour, #mois, #annee {
+    width: 150px;
+    height: 25px;
+    border-radius: 51px;
+}
+
+#mois {
+    margin: 0 20px;
+}
+
+.date_de_naissance {
+    margin-left: 58%;
+    transform: translateX(-58%);
 }

@@ -1,0 +1,40 @@
+.carousel-item img{
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel{
+    padding: 20px 0;
+}
+
+ul.carousel-items{
+    list-style: none;
+    padding: 20px 0;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+li.carousel-item{
+    flex: 1 0 220px;
+    margin-right: 20px;
+    scroll-snap-align: center;
+}
+
+::-webkit-scrollbar{
+    height: 2px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #333333;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #568F59;
+}
+
+.carousel {
+    width: 500px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
