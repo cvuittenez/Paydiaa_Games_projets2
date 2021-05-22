@@ -106,11 +106,38 @@
                     <input type="text" name="name" id="annee" required>
                 </div>
                 <p class="texte_creation">Mot de passe</p>
-                <input type="text" name="name" id="mdp2" required>
+                <input type="password" name="password" id="mdp2" required>
+                <button id="voir">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="39.355" height="21.085" viewBox="0 0 39.355 21.085">
+                        <g id="KOyY7w" transform="translate(-160.056 -161.938)">
+                            <g id="Groupe_342" data-name="Groupe 342" transform="translate(160.056 161.938)">
+                                <g id="Groupe_341" data-name="Groupe 341" transform="translate(0 0)">
+                                    <path id="Tracé_3529" data-name="Tracé 3529" d="M199.411,172.539c-5.664,5.834-11.749,10.518-20.258,10.485a19.59,19.59,0,0,1-8.994-2.485,33.914,33.914,0,0,1-10.1-8.053,33.846,33.846,0,0,1,11.035-8.493,20.218,20.218,0,0,1,8.168-2.049,20.016,20.016,0,0,1,9.284,2.157A34.52,34.52,0,0,1,199.411,172.539Zm-36.706-.064a29.874,29.874,0,0,0,11.629,7.692,16.431,16.431,0,0,0,11.344-.211,26.543,26.543,0,0,0,7.412-4.256c1.224-.985,2.381-2.053,3.641-3.146a30.176,30.176,0,0,0-11.467-7.672,15.747,15.747,0,0,0-7.946-.783C171.485,165.08,166.946,168.346,162.7,172.475Z" transform="translate(-160.056 -161.938)" fill="#586e59"/>
+                                    <path id="Tracé_3530" data-name="Tracé 3530" d="M219.767,183.7a7.553,7.553,0,1,1,7.544,7.555A7.534,7.534,0,0,1,219.767,183.7Zm7.552,6.106a6.12,6.12,0,1,0-6.117-6.1A6.129,6.129,0,0,0,227.319,189.81Z" transform="translate(-207.407 -173.191)" fill="#586e59"/>
+                                    <path id="Tracé_3531" data-name="Tracé 3531" d="M242.878,195.373c.009,2.043.75,2.661,2.589,2.222a3.416,3.416,0,0,1-.991,4.151,3.67,3.67,0,0,1-5.687-4.309A3.545,3.545,0,0,1,242.878,195.373Z" transform="translate(-222.248 -188.393)" fill="#586e59"/>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </button>
                 <p class="texte_creation">Confirmation de mot de passe</p>
-                <input type="text" name="name" id="mdp_confirm" required>
+                <input type="password" name="password" id="mdp_confirm" required>
                 <button class="se_connecter" type="button">Créer un compte</button>
             </div>
         </main>
     </body>
+    <script>
+        var boutton = document.getElementById('voir');
+        var voir = document.getElementById('mdp2');
+        boutton.addEventListener('click', see);
+        console.log(voir.getAttribute('type'));
+        function see() {
+            if(voir.getAttribute('type')=="password"){
+                voir.setAttribute('type','text');
+            }
+            else{
+                voir.setAttribute('type','password');
+            }
+        }
+    </script>
 </html>

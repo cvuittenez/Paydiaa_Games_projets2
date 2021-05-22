@@ -218,3 +218,10 @@ h3 {
     margin-left: 57.5%;
     transform: translateX(-57.5%);
 }
+
+#voir {
+    background-color: transparent;
+    border: none;
+    margin-left: -250px;
+    height: 40px;
+}

@@ -14,6 +14,7 @@
     width: 1200px;
     transform-style: preserve-3d;
 }
+
 .container .box{
     position: relative;
     width: 300px;
