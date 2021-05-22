@@ -113,6 +113,7 @@ a {
     background-color: #568F59;
     padding: 18px 51px;
     border-radius: 62px;
+    text-decoration: none;
 }
 
 h3 {
@@ -136,7 +137,7 @@ h3 {
     font-weight: bold;
 }
 
-#nom_utilisateur, #mdp, #nom_utilisateur2, #mail{
+#nom_utilisateur, #mdp, #nom_utilisateur2, #mail, #mdp2, #mdp_confirm{
     margin-left: 50%;
     transform: translateX(-50%);
     width: 500px;
@@ -174,9 +175,15 @@ h3 {
     text-align: center;
 }
 
-#jour, #mois, #annee {
-    width: 150px;
-    height: 25px;
+#annee {
+    width: 250px;
+    height: 40px;
+    border-radius: 51px;
+}
+
+#jour, #mois {
+    width: 100px;
+    height: 40px;
     border-radius: 51px;
 }
 
@@ -185,6 +192,6 @@ h3 {
 }
 
 .date_de_naissance {
-    margin-left: 58%;
-    transform: translateX(-58%);
+    margin-left: 57.5%;
+    transform: translateX(-57.5%);
 }
