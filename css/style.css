@@ -105,6 +105,10 @@ a {
     font-size: 20px;
 }
 
+/*#site-search::after{
+    content: url("./img/logo-rechercher.svg");
+}*/
+
 .voir-jeux {
     font-family: Raleway, sans-serif;
     font-size: 24px;
@@ -114,6 +118,23 @@ a {
     padding: 18px 51px;
     border-radius: 62px;
     text-decoration: none;
+    margin-top: 200px;
+    text-align: center;
+    width: 250px;
+    transform: translateX(+20%);
+}
+
+.barre-de-recherche{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+::-webkit-input-placeholder{
+    padding-left: 20px;
 }
 
 h3 {
@@ -179,12 +200,14 @@ h3 {
     width: 250px;
     height: 40px;
     border-radius: 51px;
+    font-size: 20px;
 }
 
 #jour, #mois {
     width: 100px;
     height: 40px;
     border-radius: 51px;
+    font-size: 20px;
 }
 
 #mois {

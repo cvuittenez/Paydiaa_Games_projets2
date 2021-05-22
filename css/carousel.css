@@ -22,11 +22,11 @@ li.carousel-item{
 }
 
 ::-webkit-scrollbar{
-    height: 2px;
+    height: 5px;
 }
 
 ::-webkit-scrollbar-track{
-    background-color: #333333;
+    background-color: lightgrey;
 }
 
 ::-webkit-scrollbar-thumb{
@@ -34,7 +34,7 @@ li.carousel-item{
 }
 
 .carousel {
-    width: 500px;
+    width: 800px;
     margin-left: 50%;
     transform: translateX(-50%);
 }
