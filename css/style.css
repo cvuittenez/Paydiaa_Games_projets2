@@ -225,3 +225,29 @@ h3 {
     margin-left: -250px;
     height: 40px;
 }
+
+.jeux_semaine{
+    width: 1380px;
+    border-bottom: 15px;
+}
+
+.jeux_semaine h2{
+    text-align: center;
+    color: white;
+    background-color: #486E4A;
+    padding: 20px 0;
+}
+
+.contenu {
+    margin-top: -26px;
+    display: flex;
+}
+
+h4 {
+    text-align: center;
+    font-size: 26px;
+}
+
+.contenu_droite {
+    background-color: #F9F9F9;
+}
