@@ -289,6 +289,99 @@ textarea{
     margin: 10px 20px;
 }
 
+/*Page de jeu*/
+
+h1.titre-règles-jeu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 50%;
+    top: 18%;
+    transform: translate(-50%, -50%);
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    color: #ffffff;
+}
+
+.cadre_jeu {
+    display: flex;
+    background-color: #F0F0F0;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.image_cadre_jeu {
+    max-width: 800px;
+    height: auto;
+}
+
+/*menus dépliables*/
+
+.regles {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.menu_deroulant {
+    width: 100%;
+}
+
+.menu_deroulant .section {
+    position: relative;
+    margin: 10px 20px;
+}
+
+.menu_deroulant .section .titre {
+    position: relative;
+    padding: 10px;
+    background: #4D7E46;
+    color: white;
+    cursor: pointer;
+}
+
+.menu_deroulant .section .titre::before {
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+}
+
+.menu_deroulant .section.active .titre::before {
+    content: '-';
+}
+
+.menu_deroulant .section .contenu {
+    position: relative;
+    background: white;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+}
+
+.menu_deroulant .section .contenu ul {
+    list-style-type: none;
+}
+
+.menu_deroulant .section .contenu ul li {
+    border: #4D7E46 solid 3px;
+    max-width: 900px;
+    margin-bottom: 30px;
+}
+
+.menu_deroulant .section .contenu ul li p {
+    padding: 0 20px;
+}
+
+.menu_deroulant .section.active .contenu {
+    height: 100%;
+    padding: 10px;
+}
+
 /*jeu de la semaine*/
 
 .jeux_semaine{
@@ -303,7 +396,7 @@ textarea{
     padding: 20px 0;
 }
 
-.contenu {
+.contenu_semaine {
     margin-top: -26px;
     display: flex;
 }
