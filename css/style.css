@@ -468,3 +468,98 @@ button.voir_jeu{
     width: 99.4%;
     transform: translateX(6px);
 }
+
+/*profil*/
+
+.pdp{
+    padding: 50px;
+    width: 207px;
+    height: auto;
+}
+.pseudo{
+    font-size: 60px;
+}
+
+.pseudo_infos {
+    transform: translateX(30px);
+}
+
+.infos_profil {
+    font-size: 15px;
+    color: #827D7D;
+    margin-top: -20px;
+}
+
+.profil {
+    display: flex;
+}
+
+#favoris {
+    margin-top: 150px;
+    transform: translateX(-120px);
+}
+
+#favoris > button {
+    color: white;
+    background-color: #568F59;
+    width: 220px;
+    height: 35px;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    border-radius: 62px;
+    margin-left: 80px;
+    transform: translate(1100px, -100px);
+    cursor: pointer;
+}
+
+.favoris2 {
+    padding: 0 80px;
+}
+
+.bouton_pdp {
+    color: white;
+    background-color: #568F59;
+    width: 220px;
+    height: 35px;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    border-radius: 62px;
+    transform: translateX(40px);
+    cursor: pointer;
+}
+
+.derniers_avis {
+    font-size: 40px;
+    text-align: center;
+}
+
+.avis {
+    display: flex;
+    transform: translateX(360px);
+}
+
+.jeu_avis, .note_avis, .commentaire_avis{
+    text-align: center;
+}
+
+.jeu_avis{
+    font-size: 25px;
+}
+
+.note_avis {
+    font-size: 30px;
+    color: #E6C960;
+}
+
+.commentaire_avis {
+    font-size: 20px;
+    color: #7B7B7B;
+}
+
+.avis2 {
+    margin: 0 100px;
+}
+
+.profil > svg {
+    transform: translateY(30px);
+}
