@@ -385,8 +385,10 @@ h1.titre-règles-jeu {
 /*jeu de la semaine*/
 
 .jeux_semaine{
-    width: 1380px;
+    width: 1000px;
     border-bottom: 15px;
+    margin: 0 auto;
+    position: relative;
 }
 
 .jeux_semaine h2{
@@ -394,6 +396,8 @@ h1.titre-règles-jeu {
     color: white;
     background-color: #486E4A;
     padding: 20px 0;
+    width: 99.4%;
+    transform: translateX(6px);
 }
 
 .contenu_semaine {
@@ -408,4 +412,59 @@ h4 {
 
 .contenu_droite {
     background-color: #F9F9F9;
+    margin-bottom: 0.8em;
+    margin-left: -0.6em;
+}
+
+.contenu_droite > div > p {
+    text-align: center;
+    color: #A3A3A3;
+    font-family: Roboto, sans-serif;
+}
+
+.contenu_gauche > img {
+    width: 700px;
+    height: auto;
+}
+
+
+
+button.voir_jeu{
+    position: relative;
+    top: 10vw;
+    left: 1vw;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    border-radius: 15px;
+    padding: 9px;
+    cursor: pointer;
+    font-family: 'Raleway';
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.voir_règles {
+    position: relative;
+    left: 33.5%;
+    top: -4vw;
+    width: 220px;
+    height: 40px;
+    border-radius: 62px;
+    font-family: Raleway, sans-serif;
+    font-size: 24px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.jeux_semaine h2{
+    text-align: center;
+    color: white;
+    background-color: #486E4A;
+    padding: 20px 0;
+    width: 99.4%;
+    transform: translateX(6px);
 }

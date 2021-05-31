@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.jeux_semaine {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #2f3b2f;
+    border-radius: 15px;
+    font-family: Raleway, sans-serif;
+}
+
+.jeux_semaine h2 {
+    text-align: center;
+    margin: 1rem 0;
+    color: white;
+    font-size: 40px;
+}
+
+.contenu_semaine {
+    display: flex;
+}
+
+.voir_règles {
+    position: absolute;
+    padding: 1rem 2rem;
+    font-family: Raleway, sans-serif;
+    font-size: 2rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.24);
+    outline: none;
+    border: none;
+}
